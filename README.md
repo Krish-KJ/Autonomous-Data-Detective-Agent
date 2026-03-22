@@ -436,9 +436,9 @@ The system prevents malicious code execution through multiple layers:
    - Click "Advanced settings"
    - Paste your API keys in TOML format:
    ```toml
-   GROQ_API_KEY = "gsk_xxxxx"
-   GEMINI_API_KEY = "AIzaSy_xxxxx"
-   OPENROUTER_API_KEY = "sk-or-v1-xxxxx"
+   GROQ_API_KEY = "your_groq_key_here"
+   GEMINI_API_KEY = "your_gemini_key_here"
+   OPENROUTER_API_KEY = "your_openrouter_key_here"
    ```
 
 4. **Deploy**
