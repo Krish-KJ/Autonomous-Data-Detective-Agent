@@ -1,0 +1,13 @@
+langgraph
+langchain
+langchain-core
+langchain-groq
+langchain-google-genai
+langchain-openai
+streamlit
+pandas
+plotly
+kaleido
+reportlab
+python-dotenv
+tabulate

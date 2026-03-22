@@ -1,0 +1,30 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Pytest / Coverage
+.pytest_cache/
+htmlcov/
+.coverage
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Environment Variables
+.env
+st.secrets
+
+# VSCode / IDE
+.vscode/
+.idea/
+
+# Streamlit config (optional to ignore, but ignoring secrets is vital)
+# .streamlit/secrets.toml  (Keep this in gitignore, do NOT commit secrets)
+.streamlit/secrets.toml

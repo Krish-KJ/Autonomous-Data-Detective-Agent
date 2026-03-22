@@ -1,0 +1,8 @@
+[theme]
+# Professional Dark Theme for the Data Detective AI Portolio App
+base="dark"
+primaryColor="#9146FF"
+backgroundColor="#0E1117"
+secondaryBackgroundColor="#1E212A"
+textColor="#FAFAFA"
+font="sans serif"

@@ -1,0 +1,4 @@
+# System dependencies for PDF generation and execution (if any)
+# For example, kaleido sometimes requires specific system packages on linux but works fine generally
+gcc
+g++
