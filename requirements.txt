@@ -6,8 +6,10 @@ langchain-google-genai
 langchain-openai
 streamlit
 pandas
+numpy
 plotly
 kaleido
 reportlab
+openpyxl
 python-dotenv
 tabulate
