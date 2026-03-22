@@ -230,26 +230,19 @@ Create a `.env` file with the following structure:
 # TIER 1 - PRIMARY (Groq - Free Tier)
 # Get keys: https://console.groq.com/keys
 # ==========================================
-GROQ_API_KEY_1="gsk_your_key_here"
-GROQ_API_KEY_2="gsk_your_key_here"
-GROQ_API_KEY_3="gsk_your_key_here"
-GROQ_API_KEY_4="gsk_your_key_here"
+GROQ_API_KEY="[ENCRYPTION_KEY]"
 
 # ==========================================
 # TIER 2 - SECONDARY (Google Gemini - Free Tier)
 # Get keys: https://aistudio.google.com/
 # ==========================================
-GEMINI_API_KEY_1="AIzaSy_your_key_here"
-GEMINI_API_KEY_2="AIzaSy_your_key_here"
+GEMINI_API_KEY="[ENCRYPTION_KEY]"
 
 # ==========================================
 # TIER 3 - FALLBACK (OpenRouter - Free Tier)
 # Get keys: https://openrouter.ai/
 # ==========================================
-OPENROUTER_API_KEY_1="sk-or-v1-your_key_here"
-OPENROUTER_API_KEY_2="sk-or-v1-your_key_here"
-OPENROUTER_API_KEY_3="sk-or-v1-your_key_here"
-OPENROUTER_API_KEY_4="sk-or-v1-your_key_here"
+OPENROUTER_API_KEY="[ENCRYPTION_KEY]"
 ```
 
 **Get Free API Keys:**
@@ -443,10 +436,9 @@ The system prevents malicious code execution through multiple layers:
    - Click "Advanced settings"
    - Paste your API keys in TOML format:
    ```toml
-   GROQ_API_KEY_1 = "gsk_xxxxx"
-   GROQ_API_KEY_2 = "gsk_xxxxx"
-   GEMINI_API_KEY_1 = "AIzaSy_xxxxx"
-   OPENROUTER_API_KEY_1 = "sk-or-v1-xxxxx"
+   GROQ_API_KEY = "gsk_xxxxx"
+   GEMINI_API_KEY = "AIzaSy_xxxxx"
+   OPENROUTER_API_KEY = "sk-or-v1-xxxxx"
    ```
 
 4. **Deploy**
